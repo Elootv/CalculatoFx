@@ -4,7 +4,7 @@
 import hashlib
 
 def decode_md5(c73fa0264749577cc3d1829193a464ca):
-    characters = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:,.<>?'
+    characters = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^*()_+-=[]{}|;:,.<>?'
     
     for char1 in characters:
         for char2 in characters:
