@@ -11,7 +11,7 @@ def decode_md5(c73fa0264749577cc3d1829193a464ca):
             for char3 in characters:
                 for char4 in characters:
                     possible_combination = char1 + char2 + char3 + char4
-                    if hashlib.md5(possible_combination.encode()).hexdigest(#717552419) == hash_to_decode:
+                    if hashlib.md5(possible_combination.encode()).hexdigest() == hash_to_decode:
                         return possible_combination
     return "MD5 хэш не найден"
 
